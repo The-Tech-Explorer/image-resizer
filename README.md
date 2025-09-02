@@ -56,7 +56,6 @@ image-resizer/
 ├── styles.css          # All styling and responsive design
 ├── imageResizer.js     # Core functionality and utilities
 ├── README.md          # This file
-├── .gitignore         # Git ignore rules
 └── LICENSE            # MIT License
 ```
 

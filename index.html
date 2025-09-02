@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🖼️ Image Resizer</h1>
+        
+        <div class="privacy-banner">
+            <div class="privacy-content">
+                <h2>🔒 100% Private & Secure</h2>
+                <p>Your images <strong>never leave your device</strong>. All processing happens locally in your browser. No uploads, no accounts, no tracking.</p>
+                <div class="features">
+                    <span class="feature">🌐 Works Offline</span>
+                    <span class="feature">📱 No Installation</span>
+                    <span class="feature">💾 No Data Collection</span>
+                    <span class="feature">🔓 Open Source</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-section">
+            <h3>Select Image & Set Dimensions</h3>
+            <div class="controls">
+                <input type="file" id="imageInput" accept="image/*">
+                <input type="number" id="targetWidth" placeholder="Target Width (px)" min="1">
+                <input type="number" id="targetHeight" placeholder="Target Height (px)" min="1">
+                <select id="resizeMode">
+                    <option value="exact">Exact Dimensions</option>
+                    <option value="fit">Fit (Maintain Aspect Ratio)</option>
+                    <option value="fill">Fill (Crop if Needed)</option>
+                </select>
+                <select id="quality">
+                    <option value="1">Best Quality</option>
+                    <option value="0.9">High Quality</option>
+                    <option value="0.8">Good Quality</option>
+                    <option value="0.6">Medium Quality</option>
+                </select>
+                <button id="resizeBtn" disabled>Resize Image</button>
+            </div>
+        </div>
+
+        <div id="error"></div>
+        <div id="imagesContainer" class="images-container"></div>
+        
+        <footer class="footer">
+            <p>🔓 <strong>Open Source</strong> • 🔒 <strong>Privacy Focused</strong> • 💰 <strong>Completely Free</strong></p>
+            <p>Made with ❤️ for privacy-conscious users. <a href="https://github.com/yourusername/image-resizer" target="_blank">View Source Code</a></p>
+        </footer>
+    </div>
+
+    <script src="imageResizer.js"></script>
+</body>
+</html>

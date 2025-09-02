@@ -191,3 +191,22 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - [ ] 📊 EXIF data viewer/editor (client-side only)
 
 *All features will maintain our core principle: your data never leaves your device.*
+
+## 🆚 Privacy Comparison
+
+| Feature | This Tool | Typical Online Tools |
+|---------|-----------|---------------------|
+| **Data Upload** | ❌ Never | ✅ Always Required |
+| **Server Processing** | ❌ None | ✅ All Processing |
+| **Data Storage** | ❌ Nothing Stored | ❓ Unknown Retention |
+| **Privacy Policy** | ❌ Not Needed | ❓ Complex Terms |
+| **Internet Required** | ❌ Works Offline | ✅ Always Required |
+| **File Size Limits** | ❌ No Limits | ✅ Usually Limited |
+| **Speed** | ⚡ Instant | 🐌 Upload/Download Wait |
+| **Cost** | 💰 Always Free | 💳 Often Freemium |
+
+**The Bottom Line**: Your images are processed entirely on your device using your browser's built-in capabilities. We literally cannot access your images because they never leave your computer.
+
+---
+
+*Made with ❤️ for users who value their privacy. Star this repo if you believe privacy should be the default, not a premium feature.*
